@@ -8,22 +8,23 @@ And next to them lives the **Hall of Shame** — the hell list. The shit people.
 
 ---
 
+## 👑 The OG List
+
+These are the real big tool makers and top crackers — the original people. No explanations needed; their work speaks:
+
+**CPY** · **CODEX** · **EMPRESS** · **Mr_Goldberg** · **voices38** · **Voksi** · **Baldman** · **oureveryday** · **AceSLS** · **OpenSteam001** · **SlejmUr** · **Kirigiri** · **Andreh (NotAndreh)** · **MKDEV** · **Mojtaba** · **OxZeon** · **SageAro** · **Detanup01** · **atom0s** · **anadius** · **DiaBlu** · **Nemirtingas** · **xan105** · **denuvosanctuary** · **alex47exe** · **cute-rui** · **Sak32009** · **softashell** · **nicoco007** · **Rui** · **InsaneRamZes** · **Deadboy666**
+
+Plus the crews, groups, repackers and communities in the full registry — see `data/creators.json` or the [site](https://the-lust.github.io/Matrix-Of-Leadership/creators.html).
+
+## 🚪 How you end up here
+
+- **In the Creators registry** — you get recommended, and you have a real **work / tool / crack** to your name, or you're a known presence on **CS.RIN.RU** and the scene. That's it — you end up here. :D
+- **Becoming an OG** — if you're *really* good: genuinely famous, or you made a big work, a big crack, or something useful that the whole scene uses — you can become one of the OGs too.
+- **In the Hall of Shame** — if you do something bad: suspicious activity, stealing from people or creators, mocking, betraying — you're going in the hell list. ;)
+
 ## ✨ The Creators Registry
 
-The OGs are the main people — the ones who build the **big tools** and the **big cracks**:
-
-- **Mr_Goldberg** — the goldberg emulator, the standard itself
-- **voices38** — fresh Denuvo kills in the post-EMPRESS era
-- **Andreh (NotAndreh)** — DenuvOwO hypervisor-bypass work
-- **MKDEV** — the team the community credits with making the **HVB** hypervisor bypass
-- **Kirigiri** — Hypervisor V3, the DSE method that became the community standard
-- **Mojtaba**, **OxZeon**, **SageAro** — the DenuvOwO HVB crew
-- **Voksi** — Denuvo V4 bypasses, the Doom demo bypass
-- **AceSLS** — SLSsteam, the Linux steamclient
-- **OpenSteam001** — OpenSteamTool, the open-source Steam unlocker
-- **oureveryday** — SteamAutoCrack
-- **SlejmUr** — UplayDB, Ubisoft reversing
-- …and the full registry: groups, crack crews, repackers, uploaders, tools, hypervisor, communities.
+The full registry is organized in eight categories — **Legends, Crack Crews, Scene Groups, Repackers, Uploaders, Tools & Emulators, Hypervisor & Denuvo, Communities** — in `data/creators.json` (and the human-readable `data/creators.md`), and browsable on the site.
 
 Every name is an **original person or first maker** — someone who owns their work. That is the only ticket into this list.
 

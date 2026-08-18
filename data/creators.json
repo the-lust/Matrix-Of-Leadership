@@ -9,7 +9,7 @@
     { "name": "Mojtaba (mojtabafalleh)", "role": "DenuvOwO crew", "note": "worked the DenuvOwO hypervisor-bypass (HVB) crack", "link": "https://github.com/mojtabafalleh" },
     { "name": "SageAro", "role": "DenuvOwO crew", "note": "worked the DenuvOwO hypervisor-bypass (HVB) crack — socials TBA", "link": "" },
     { "name": "NotAndreh (Andreh)", "role": "DenuvOwO crew", "note": "Denuvo hypervisor-bypass research and emulation work", "link": "https://github.com/NotAndreh" },
-    { "name": "KirigiriX (Kirigiri)", "role": "method author", "note": "Hypervisor V3 — the DSE/Kirigiri bypass, community standard", "link": "https://github.com/KirigiriX" },
+    { "name": "KirigiriX (Kirigiri)", "role": "method author", "note": "Hypervisor V3 — the DSE/Kirigiri bypass, community standard; ex-DenuvOwO crew, now retired", "link": "https://github.com/KirigiriX" },
     { "name": "Detanup01", "role": "emulator maintainer", "note": "gbe_fork, UplayServer, Goldberg R2 extended", "link": "https://github.com/Detanup01" },
     { "name": "oureveryday", "role": "tool author", "note": "SteamAutoCrack", "link": "https://github.com/oureveryday" },
     { "name": "atom0s", "role": "tool author", "note": "Steamless — SteamStub DRM remover", "link": "https://github.com/atom0s/Steamless" },
@@ -29,7 +29,7 @@
   ],
   "crews": [
     { "name": "MKDEV", "role": "Denuvo team", "note": "Football Manager series, FIFA 23, Persona 5 Royal/4 Golden; credited by the community as the makers of the HVB hypervisor bypass", "link": "https://isitcracked.com/group/mkdev" },
-    { "name": "DenuvOwO", "role": "hypervisor team", "note": "HVB method — intercepts Denuvo checks at system level; worked with OxZeon, Mojtaba, SageAro, Andreh, Kirigiri", "link": "https://isitcracked.com/group/denuvowo" },
+    { "name": "DenuvOwO", "role": "hypervisor team", "note": "HVB method — intercepts Denuvo checks at system level; crew included OxZeon, Mojtaba, SageAro, Andreh and Kirigiri (retired)", "link": "https://isitcracked.com/group/denuvowo" },
     { "name": "FCKDRM", "role": "crack crew", "note": "modern DRM-fighting releases", "link": "https://isitcracked.com/group/fckdrm" }
   ],
   "groups": [

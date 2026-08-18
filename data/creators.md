@@ -16,7 +16,7 @@ Every name is a link to their profile where one exists; otherwise plain name.
 | [Mojtaba (mojtabafalleh)](https://github.com/mojtabafalleh) | DenuvOwO crew | worked the DenuvOwO hypervisor-bypass (HVB) crack |
 | SageAro | DenuvOwO crew | worked the DenuvOwO hypervisor-bypass (HVB) crack — socials TBA |
 | [NotAndreh](https://github.com/NotAndreh) (Andreh) | DenuvOwO crew | Denuvo hypervisor-bypass research and emulation work |
-| [KirigiriX](https://github.com/KirigiriX) (Kirigiri) | method author | Hypervisor V3 — the DSE/Kirigiri bypass, community standard |
+| [KirigiriX](https://github.com/KirigiriX) (Kirigiri) | method author | Hypervisor V3 — the DSE/Kirigiri bypass, community standard; ex-DenuvOwO crew, now retired |
 | [Detanup01](https://github.com/Detanup01) | emulator maintainer | gbe_fork, UplayServer, Goldberg R2 extended |
 | [oureveryday](https://github.com/oureveryday) | tool author | SteamAutoCrack |
 | [atom0s](https://github.com/atom0s/Steamless) | tool author | Steamless — SteamStub DRM remover |
@@ -40,7 +40,7 @@ Every name is a link to their profile where one exists; otherwise plain name.
 | Name | Role | Notes |
 |---|---|---|
 | [MKDEV](https://isitcracked.com/group/mkdev) | Denuvo team | Football Manager series, FIFA 23, Persona 5 Royal/4 Golden; credited by the community as the makers of the HVB hypervisor bypass |
-| [DenuvOwO](https://isitcracked.com/group/denuvowo) | hypervisor team | HVB method — intercepts Denuvo checks at system level; worked with OxZeon, Mojtaba, SageAro, Andreh, Kirigiri |
+| [DenuvOwO](https://isitcracked.com/group/denuvowo) | hypervisor team | HVB method — intercepts Denuvo checks at system level; crew included OxZeon, Mojtaba, SageAro, Andreh and Kirigiri (retired) |
 | [FCKDRM](https://isitcracked.com/group/fckdrm) | crack crew | modern DRM-fighting releases |
 
 ## Scene Groups
