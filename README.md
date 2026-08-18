@@ -8,8 +8,10 @@ A public registry of original creators — the pirates, builders, and artists wh
 
 | Section | Purpose |
 |---|---|
-| **Creators** | Original, verified makers — their channels, platforms, and signature work |
-| **Hall of Shame** | Recorded scammers, thieves, and impersonators with evidence links |
+| [**Creators**](data/creators.md) | Original, verified makers — their channels, platforms, and signature work |
+| [**Hall of Shame**](data/hall-of-shame.md) | Recorded scammers, thieves, and impersonators with evidence links |
+
+The creators registry is compiled from the GitHub network (stars, followers, following, repo contributors, README credits) plus public scene research — see [data/creators.md](data/creators.md).
 
 ## Contributing
 
