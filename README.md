@@ -1,53 +1,81 @@
-# Matrix Of Leadership
+# ⚡ Matrix Of Leadership
 
-A community registry of the real ones — original creators, crackers, groups, repackers, and tool makers — next to a hell list that exposes scammers and content stealers with proof.
+A community registry of the **real ones** — the OG pirates, gods and angels who built this scene with their own hands.
 
-This repository is a living index, kept authentic by the community that uses it.
+Here you will find the people who made the big tools and the big cracks: the original makers, the first crackers, the crews, the repackers, the uploaders, the communities. These people **are** the scene. Respect them.
 
-## What lives here
+And next to them lives the **Hall of Shame** — the hell list. The shit people. Scammers, thieves, impersonators, content stealers. They get exposed here, graded 0–10 by severity, with proof against every entry.
 
-- **Creators Registry** — original people and first makers: scene legends, groups, repackers, tools (authors only), hypervisor crews, communities. Every entry names the person who actually made the thing.
-- **Hall of Shame** — scammers, thieves, and impersonators, graded 0–10 by severity, with proof links against every entry. Proofs are gathered and can always be expanded.
+---
 
-- **Site** — a light/dark themed website with built-in search across every section: <https://the-lust.github.io/Matrix-Of-Leadership/>
+## ✨ The Creators Registry
 
-The website renders straight from the data files — update the data, and the site updates itself.
+The OGs are the main people — the ones who build the **big tools** and the **big cracks**:
 
-## How the data works
+- **Mr_Goldberg** — the goldberg emulator, the standard itself
+- **voices38** — fresh Denuvo kills in the post-EMPRESS era
+- **Andreh (NotAndreh)** — DenuvOwO hypervisor-bypass work
+- **MKDEV** — the team the community credits with making the **HVB** hypervisor bypass
+- **Kirigiri** — Hypervisor V3, the DSE method that became the community standard
+- **Mojtaba**, **OxZeon**, **SageAro** — the DenuvOwO HVB crew
+- **Voksi** — Denuvo V4 bypasses, the Doom demo bypass
+- **AceSLS** — SLSsteam, the Linux steamclient
+- **OpenSteam001** — OpenSteamTool, the open-source Steam unlocker
+- **oureveryday** — SteamAutoCrack
+- **SlejmUr** — UplayDB, Ubisoft reversing
+- …and the full registry: groups, crack crews, repackers, uploaders, tools, hypervisor, communities.
+
+Every name is an **original person or first maker** — someone who owns their work. That is the only ticket into this list.
+
+## 🔥 The Hall of Shame
+
+The hell list is for the **shit people** — scammers, thieves, impersonators, stealers. Ruthless by design, evidence-driven by policy:
+
+- Severity `0–10`: `0–1` Low · `2–3` Moderate · `4–5` High · `6–7` Very High · `8–9` Brutal · `10` Super Risky
+- Every entry requires **proof links** — threads, receipts, screenshots, comparisons.
+- Status per entry: `verified`, `contacted` (expandable), or `pending`.
+- **No proof, no entry.**
+
+## 💛 Recommendations — get a direct ticket
+
+The OGs can recommend people. This is a **recommendation system**:
+
+1. An OG (or someone with real knowledge of the scene) sends a recommendation — via a **GitHub contribution** (pull request against the data files) **or** by sending the info directly on my Discord.
+2. The recommendation is reviewed and the person gets a **direct ticket** into the registry.
+
+**My Discord:** `1243925000369733806` — send names, roles, links, proof, anything you know. Every legit recommendation makes the record stronger.
+
+> ⚠️ **Honesty note:** mistakes are here and there. I am sorry. Things will be fixed **asap** — open an issue, send a PR, or message me on Discord and it gets corrected fast.
+
+## 📂 How the data works
 
 | File | Feed |
 |---|---|
-| `data/creators.json` | creators, groups, repackers, tools, hypervisor crews, communities |
+| `data/creators.json` | the registry — legends, crews, groups, repackers, uploaders, tools, hypervisor, communities |
 | `data/shame.json` | hall of shame entries (severity + proofs) |
 | `data/creators.md` | human-readable copy of the registry |
 | `data/hall-of-shame.md` | human-readable copy of the hell list + severity scale |
 
-The `.json` files are the source of truth for the site. Keep both files in sync when you contribute.
+The `.json` files are the source of truth for the site — edit them and the website updates itself.
 
-## Contributing
+## 🤝 Contributing
 
-This place stays honest because the community maintains it. Here is how:
+1. **Star** the repo and **fork** it — stars and forks keep the index alive and authentic.
+2. **Add a creator** — PR against `data/creators.json` (+ `data/creators.md`). Original makers and first crackers only. Profile link when one exists.
+3. **Name someone in the hell list** — PR against `data/shame.json` (+ `data/hall-of-shame.md`). Proof required. Severity is graded at review.
+4. **Fix and correct** — wrong link, missing credit, mistake? Open an issue or send the fix. Mistakes get fixed **asap**.
+5. **Recommend** — Discord `1243925000369733806` or a PR. Direct ticket after review.
 
-1. **Star the repo** and **fork it** — forks and stars are what keep the index alive and authentic.
-2. **Add to the Creators Registry** — open a pull request editing `data/creators.json` (+ `data/creators.md`). Original makers and first crackers only: people who own their work. Include a profile link when one exists.
-3. **Add to the Hall of Shame** — same flow, but every entry requires **proof links** (threads, receipts, screenshots, comparisons). Entry is reviewed before merge. Severity is graded 0–10:
+All entries are reviewed before they land. No vote farming, no unverified claims.
 
-   - `0–1` Low · `2–3` Moderate · `4–5` High · `6–7` Very High · `8–9` Brutal · `10` Super Risky
+## 👑 Repository origin
 
-4. **Edits and corrections** — spot a wrong link, a missing credit, or a fix? Open an issue or send a pull request.
-5. **Questions and ideas** — open an issue. Every legitimate touch on this repo makes the record stronger.
+Founded by **the-lust** as the original, first-form record of the scene's real creators — and its worst offenders. It stays that way through you: PRs, issues, stars, forks.
 
-All entries are reviewed by the maintainers before they land — no vote farming, no unverified claims.
-
-## Repository origin
-
-This registry was founded by **the-lust** as the original, first-form record of the scene's real creators and its worst offenders. It stays that way through you — PRs, issues, stars, and forks.
-
-## License
-
-The content of this repository is licensed under the
-[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) — see [LICENSE](LICENSE).
-
-## Site
+## 🌐 Site
 
 Live site: <https://the-lust.github.io/Matrix-Of-Leadership/>
+
+## 📄 License
+
+Content licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — see [LICENSE](LICENSE).

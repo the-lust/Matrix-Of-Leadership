@@ -14,7 +14,7 @@ Every name is a link to their profile where one exists; otherwise plain name.
 | [Baldman](https://github.com/baldman) | cracker | Rime, Prey, Sniper Ghost Warrior 3 cracks; achievements and online fixes |
 | OxZeon | DenuvOwO crew | worked the DenuvOwO hypervisor-bypass (HVB) crack |
 | [Mojtaba (mojtabafalleh)](https://github.com/mojtabafalleh) | DenuvOwO crew | worked the DenuvOwO hypervisor-bypass (HVB) crack |
-| [SageAro](https://github.com/SageAro) | DenuvOwO crew | worked the DenuvOwO hypervisor-bypass (HVB) crack |
+| SageAro | DenuvOwO crew | worked the DenuvOwO hypervisor-bypass (HVB) crack — socials TBA |
 | [NotAndreh](https://github.com/NotAndreh) (Andreh) | DenuvOwO crew | Denuvo hypervisor-bypass research and emulation work |
 | [KirigiriX](https://github.com/KirigiriX) (Kirigiri) | method author | Hypervisor V3 — the DSE/Kirigiri bypass, community standard |
 | [Detanup01](https://github.com/Detanup01) | emulator maintainer | gbe_fork, UplayServer, Goldberg R2 extended |
@@ -30,12 +30,18 @@ Every name is a link to their profile where one exists; otherwise plain name.
 | [denuvosanctuary](https://github.com/denuvosanctuary) | Denuvo tools | ubi-dbdata — dbdata.dll emulator + related tools |
 | [alex47exe](https://github.com/alex47exe) | emulator maintainer | gse_fork — improved Goldberg fork |
 | Rui | uploader | CS.RIN.RU "Clean Steam Files" archive — backbone of the forum |
-| [cute-rui](https://github.com/cute-rui) | tool author | SteamForwarder — Steam community proxy for Linux |
 | [OpenSteam001](https://github.com/OpenSteam001) | tool author | OpenSteamTool — open-source Steam unlocker |
 | [Sak32009](https://github.com/Sak32009) | tool author | GetDLCInfoFromSteamDB and SteamRE tooling |
-| [softashell](https://github.com/softashell) | emulator dev | ALI/UPlay emulator lineage |
+| [softashell](https://github.com/softashell) | emulator dev | ALI/UPlay emulator lineage, SmartSteamEmu work |
 | [nicoco007](https://github.com/nicoco007) | tool author | RE Plugin and RE Engine reverse-engineering tools |
-| InsaneRamZes | uploader | CS.RIN.RU clean Steam files uploads |
+
+## Crack Crews & Hypervisor Teams
+
+| Name | Role | Notes |
+|---|---|---|
+| [MKDEV](https://isitcracked.com/group/mkdev) | Denuvo team | Football Manager series, FIFA 23, Persona 5 Royal/4 Golden; credited by the community as the makers of the HVB hypervisor bypass |
+| [DenuvOwO](https://isitcracked.com/group/denuvowo) | hypervisor team | HVB method — intercepts Denuvo checks at system level; worked with OxZeon, Mojtaba, SageAro, Andreh, Kirigiri |
+| [FCKDRM](https://isitcracked.com/group/fckdrm) | crack crew | modern DRM-fighting releases |
 
 ## Scene Groups
 
@@ -43,9 +49,6 @@ Every name is a link to their profile where one exists; otherwise plain name.
 |---|---|---|
 | [RUNE](https://isitcracked.com/group/rune) | scene group | active since 2021, picked up where CODEX left off; own RUNE steam emulators |
 | [TENOKE](https://isitcracked.com/group/tenoke) | scene group | new but very active — wide range from indies to big titles |
-| [MKDEV](https://isitcracked.com/group/mkdev) | Denuvo team | Football Manager series, FIFA 23, Persona 5 Royal/4 Golden; credited by the community as the makers of the HVB hypervisor bypass |
-| [DenuvOwO](https://isitcracked.com/group/denuvowo) | hypervisor team | HVB method — intercepts Denuvo checks at system level; worked with OxZeon, Mojtaba, SageAro, Andreh, Kirigiri |
-| [FCKDRM](https://isitcracked.com/group/fckdrm) | group | modern DRM-fighting releases |
 | [CPY](https://isitcracked.com/group/cpy) (Conspir4cy) | Denuvo group | legendary Denuvo cracks |
 | [CODEX](https://isitcracked.com/group/codex) | scene group | 2014–2022, first on big AAA games |
 | [STEAMPUNKS](https://isitcracked.com/group/steampunks) | Steam DRM group | 2017, bold Denuvo cracks, short run |
@@ -69,7 +72,14 @@ Every name is a link to their profile where one exists; otherwise plain name.
 | [ElAmigos](https://elamigos.site/) | repacker | full-size uploads |
 | [Mr_RiP](https://www.mr-rip.us/) | repacker | 90s classics |
 | [xatab](https://byxatab.com/) | repacker | long-running |
-| [m0nkrus](https://github.com/monkrus) | repacker | Adobe master — tiny standalone repacks |
+| m0nkrus | repacker | Adobe master — tiny standalone repacks |
+
+## Uploaders
+
+| Name | Role | Notes |
+|---|---|---|
+| Rui | uploader | CS.RIN.RU "Clean Steam Files" archive — backbone of the forum |
+| InsaneRamZes | uploader | CS.RIN.RU clean Steam files uploads |
 
 ## Tools & Emulators (authors only)
 

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Creators — Matrix Of Leadership</title>
-<meta name="description" content="The creators registry: original people and first makers, release groups, repackers, tools, hypervisor crews and communities.">
+<meta name="description" content="The creators registry: the OG gods and angels — legends, crack crews, groups, repackers, uploaders, tools, hypervisor crews and communities.">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -25,8 +25,8 @@
 <main>
   <section class="hero">
     <span class="kicker">The registry</span>
-    <h1>Creators — the <span class="accent">real ones</span>.</h1>
-    <p class="lead">Original people and first makers only. Every entry names who actually made the thing, with a link to their profile where one exists.</p>
+    <h1>The gods and angels of the scene.</h1>
+    <p class="lead">Original people and first makers only — the ones who built the big tools and the big cracks. Every entry names who actually made the thing, with a link to their profile where one exists.</p>
   </section>
 
   <div class="search-wrap">
@@ -41,7 +41,8 @@
 
 <footer>
   <a href="index.html">Home</a> · add or fix an entry via a pull request against
-  <a href="https://github.com/the-lust/Matrix-Of-Leadership/blob/master/data/creators.json">data/creators.json</a>
+  <a href="https://github.com/the-lust/Matrix-Of-Leadership/blob/master/data/creators.json">data/creators.json</a> ·
+  recommend someone on Discord: 1243925000369733806
 </footer>
 
 <script src="assets/theme.js"></script>
@@ -55,19 +56,22 @@
   var active = "all";
 
   var CATS = [
-    ["all", "All", "chip accent-c"],
-    ["legends", "Legends", "chip accent-c"],
-    ["groups", "Groups", "chip accent-c"],
-    ["repackers", "Repackers", "chip accent-c"],
-    ["tools", "Tools", "chip accent-c"],
-    ["hypervisor", "Hypervisor", "chip accent-c"],
-    ["communities", "Communities", "chip accent-c"]
+    ["all", "All", "accent-c"],
+    ["legends", "Legends", "accent-c"],
+    ["crews", "Crack Crews", "accent-c"],
+    ["groups", "Scene Groups", "accent-c"],
+    ["repackers", "Repackers", "accent-c"],
+    ["uploaders", "Uploaders", "accent-c"],
+    ["tools", "Tools & Emulators", "accent-c"],
+    ["hypervisor", "Hypervisor & Denuvo", "accent-c"],
+    ["communities", "Communities", "accent-c"]
   ];
 
   function esc(s) { var d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
 
   function catLabel(cat) {
-    return { legends: "Legend", groups: "Group", repackers: "Repacker", tools: "Tool", hypervisor: "Hypervisor", communities: "Community" }[cat] || cat;
+    var m = CATS.filter(function (c) { return c[0] === cat; });
+    return m.length ? m[0][1] : cat;
   }
 
   function render() {
@@ -88,10 +92,12 @@
     var html = "";
     out.forEach(function (o) {
       var it = o.it;
-      var link = it.link ? '<a class="who" target="_blank" rel="noopener" href="' + esc(it.link) + '">' + esc(it.name) + ' &#8599;</a>' : '<span class="name">' + esc(it.name) + "</span>";
+      var label = catLabel(o.cat);
+      var name = it.link
+        ? '<a class="name who" target="_blank" rel="noopener" href="' + esc(it.link) + '">' + esc(it.name) + " &#8599;</a>"
+        : '<span class="name">' + esc(it.name) + "</span>";
       html += '<div class="item">' +
-        '<div class="top"><span class="name">' + (link.indexOf("&#8599;") !== -1 ? "" : "") + "</span></div>" +
-        '<div class="top">' + link + '<span class="chip accent-c">' + catLabel(o.cat) + "</span></div>" +
+        '<div class="top">' + name + '<span class="chip accent-c">' + esc(label) + "</span></div>" +
         (it.role || it.author ? '<span class="tag">' + esc(it.role || "by " + it.author) + "</span>" : "") +
         '<span class="note">' + esc(it.note) + "</span>" +
         "</div>";
