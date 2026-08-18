@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matrix Of Leadership</title>
+<meta name="description" content="A public registry of original creators and a hall of shame for scammers and content stealers.">
+<style>
+  :root {
+    --bg: #0d0f14;
+    --panel: #161a22;
+    --border: #262c38;
+    --text: #e6e9f0;
+    --muted: #9aa3b2;
+    --gold: #d4af37;
+    --red: #ff5c5c;
+    --green: #4cd964;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    background: var(--panel);
+  }
+  .brand {
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: var(--gold);
+  }
+  header nav a {
+    color: var(--muted);
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 14px;
+  }
+  header nav a:hover { color: var(--gold); }
+  main {
+    flex: 1;
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 48px 24px;
+  }
+  .hero h1 {
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    letter-spacing: 1px;
+    line-height: 1.15;
+  }
+  .hero .accent { color: var(--gold); }
+  .hero p {
+    margin-top: 16px;
+    color: var(--muted);
+    font-size: 1.05rem;
+    max-width: 60ch;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+    margin-top: 40px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 22px;
+  }
+  .card h2 { font-size: 1.15rem; margin-bottom: 8px; }
+  .card h2 .dot { margin-right: 8px; }
+  .dot.green { color: var(--green); }
+  .dot.red { color: var(--red); }
+  .card p { color: var(--muted); font-size: 0.95rem; }
+  .card .badge {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 600;
+  }
+  .badge.creators { background: rgba(76, 217, 100, 0.12); color: var(--green); border: 1px solid rgba(76, 217, 100, 0.35); }
+  .badge.shame { background: rgba(255, 92, 92, 0.12); color: var(--red); border: 1px solid rgba(255, 92, 92, 0.35); }
+  .note {
+    margin-top: 40px;
+    padding: 14px 18px;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--gold);
+    border-radius: 8px;
+    background: var(--panel);
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .note a { color: var(--gold); }
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 18px 24px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+    background: var(--panel);
+  }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">Matrix Of Leadership</div>
+  <nav>
+    <a href="https://github.com/the-lust/Matrix-Of-Leadership">Repository</a>
+    <a href="https://github.com/the-lust/Matrix-Of-Leadership/issues">Contribute</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Matrix Of <span class="accent">Leadership</span></h1>
+    <p>A public registry of original creators — the pirates, builders, and artists who keep the scene moving — alongside a hall of shame for scammers and content stealers.</p>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h2><span class="dot green">&#9679;</span>Creators</h2>
+      <p>Original, verified makers — their platforms, channels, and signature work. Celebrating the real ones.</p>
+      <span class="badge creators">Registry</span>
+    </div>
+    <div class="card">
+      <h2><span class="dot red">&#9679;</span>Hall of Shame</h2>
+      <p>Recorded scammers, thieves, and impersonators — with evidence links so the community stays informed.</p>
+      <span class="badge shame">Watchlist</span>
+    </div>
+  </section>
+
+  <div class="note">
+    <strong>Caution:</strong> Nothing on this site is legal advice. Entries are provided in good faith based on publicly available community reports. Verify everything yourself.
+  </div>
+</main>
+
+<footer>
+  Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> &middot;
+  <a href="https://github.com/the-lust/Matrix-Of-Leadership">github.com/the-lust/Matrix-Of-Leadership</a>
+</footer>
+</body>
+</html>
