@@ -12,6 +12,11 @@ Every name is a link to their profile where one exists; otherwise plain name.
 | [voices38](https://isitcracked.com/group/voices38) | cracker | fresh Denuvo-protected releases, post-EMPRESS generation |
 | [Voksi](https://github.com/voksi) | cracker | Denuvo V4/V4.9++ bypasses, Steamworks multiplayer fixes, the Doom demo bypass (650k+ users in 3 days) |
 | [Baldman](https://github.com/baldman) | cracker | Rime, Prey, Sniper Ghost Warrior 3 cracks; achievements and online fixes |
+| OxZeon | DenuvOwO crew | worked the DenuvOwO hypervisor-bypass (HVB) crack |
+| [Mojtaba (mojtabafalleh)](https://github.com/mojtabafalleh) | DenuvOwO crew | worked the DenuvOwO hypervisor-bypass (HVB) crack |
+| [SageAro](https://github.com/SageAro) | DenuvOwO crew | worked the DenuvOwO hypervisor-bypass (HVB) crack |
+| [NotAndreh](https://github.com/NotAndreh) (Andreh) | DenuvOwO crew | Denuvo hypervisor-bypass research and emulation work |
+| [KirigiriX](https://github.com/KirigiriX) (Kirigiri) | method author | Hypervisor V3 — the DSE/Kirigiri bypass, community standard |
 | [Detanup01](https://github.com/Detanup01) | emulator maintainer | gbe_fork, UplayServer, Goldberg R2 extended |
 | [oureveryday](https://github.com/oureveryday) | tool author | SteamAutoCrack |
 | [atom0s](https://github.com/atom0s/Steamless) | tool author | Steamless — SteamStub DRM remover |
@@ -27,8 +32,6 @@ Every name is a link to their profile where one exists; otherwise plain name.
 | Rui | uploader | CS.RIN.RU "Clean Steam Files" archive — backbone of the forum |
 | [cute-rui](https://github.com/cute-rui) | tool author | SteamForwarder — Steam community proxy for Linux |
 | [OpenSteam001](https://github.com/OpenSteam001) | tool author | OpenSteamTool — open-source Steam unlocker |
-| [NotAndreh](https://github.com/NotAndreh) (Andreh) | researcher | Denuvo hypervisor-bypass research and emulation work |
-| [KirigiriX](https://github.com/KirigiriX) (Kirigiri) | method author | Hypervisor V3 — the DSE/Kirigiri bypass, community standard |
 | [Sak32009](https://github.com/Sak32009) | tool author | GetDLCInfoFromSteamDB and SteamRE tooling |
 | [softashell](https://github.com/softashell) | emulator dev | ALI/UPlay emulator lineage |
 | [nicoco007](https://github.com/nicoco007) | tool author | RE Plugin and RE Engine reverse-engineering tools |
@@ -40,8 +43,8 @@ Every name is a link to their profile where one exists; otherwise plain name.
 |---|---|---|
 | [RUNE](https://isitcracked.com/group/rune) | scene group | active since 2021, picked up where CODEX left off; own RUNE steam emulators |
 | [TENOKE](https://isitcracked.com/group/tenoke) | scene group | new but very active — wide range from indies to big titles |
-| [MKDEV](https://isitcracked.com/group/mkdev) | Denuvo team | Football Manager series, FIFA 23, Persona 5 Royal/4 Golden; HVB hypervisor-bypass wave (with DenuvOwO) |
-| [DenuvOwO](https://isitcracked.com/group/denuvowo) | hypervisor team | HVB method — intercepts Denuvo checks at system level (with MKDEV) |
+| [MKDEV](https://isitcracked.com/group/mkdev) | Denuvo team | Football Manager series, FIFA 23, Persona 5 Royal/4 Golden; credited by the community as the makers of the HVB hypervisor bypass |
+| [DenuvOwO](https://isitcracked.com/group/denuvowo) | hypervisor team | HVB method — intercepts Denuvo checks at system level; worked with OxZeon, Mojtaba, SageAro, Andreh, Kirigiri |
 | [FCKDRM](https://isitcracked.com/group/fckdrm) | group | modern DRM-fighting releases |
 | [CPY](https://isitcracked.com/group/cpy) (Conspir4cy) | Denuvo group | legendary Denuvo cracks |
 | [CODEX](https://isitcracked.com/group/codex) | scene group | 2014–2022, first on big AAA games |
@@ -121,7 +124,7 @@ Every name is a link to their profile where one exists; otherwise plain name.
 | Name / Tool | Author | Notes |
 |---|---|---|
 | Hypervisor V3 | [KirigiriX](https://github.com/KirigiriX) | DSE/Kirigiri method — the community standard |
-| HVB method | MKDEV + DenuvOwO | hypervisor-based bypass — intercepts Denuvo checks |
+| HVB method | [MKDEV](https://isitcracked.com/group/mkdev) + [DenuvOwO](https://isitcracked.com/group/denuvowo) | hypervisor-based bypass — intercepts Denuvo checks; crew: OxZeon, Mojtaba, SageAro, Andreh, Kirigiri |
 | HiperVisor-Denuvo | [modgames44](https://github.com/modgames44) | HV deactivate/revert tool |
 | NotAndreh research | [NotAndreh](https://github.com/NotAndreh) | hypervisor-bypass research & emulation |
 | hypervisor-crack-audit | [RD945](https://github.com/RD945) | security analysis of the HV DRM bypass |

@@ -3,172 +3,191 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Matrix Of Leadership</title>
-<meta name="description" content="A public registry of original creators and a hall of shame for scammers and content stealers.">
-<style>
-  :root {
-    --bg: #0d0f14;
-    --panel: #161a22;
-    --border: #262c38;
-    --text: #e6e9f0;
-    --muted: #9aa3b2;
-    --gold: #d4af37;
-    --red: #ff5c5c;
-    --green: #4cd964;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  header {
-    border-bottom: 1px solid var(--border);
-    padding: 14px 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    flex-wrap: wrap;
-    background: var(--panel);
-  }
-  .brand {
-    font-weight: 800;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: 15px;
-    color: var(--gold);
-  }
-  header nav a {
-    color: var(--muted);
-    text-decoration: none;
-    margin-left: 16px;
-    font-size: 14px;
-  }
-  header nav a:hover { color: var(--gold); }
-  main {
-    flex: 1;
-    width: 100%;
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 48px 24px;
-  }
-  .hero h1 {
-    font-size: clamp(2rem, 6vw, 3.2rem);
-    letter-spacing: 1px;
-    line-height: 1.15;
-  }
-  .hero .accent { color: var(--gold); }
-  .hero p {
-    margin-top: 16px;
-    color: var(--muted);
-    font-size: 1.05rem;
-    max-width: 60ch;
-  }
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 18px;
-    margin-top: 40px;
-  }
-  .card {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 22px;
-  }
-  .card h2 { font-size: 1.15rem; margin-bottom: 8px; }
-  .card h2 .dot { margin-right: 8px; }
-  .dot.green { color: var(--green); }
-  .dot.red { color: var(--red); }
-  .card p { color: var(--muted); font-size: 0.95rem; }
-  .card .badge {
-    display: inline-block;
-    margin-top: 12px;
-    font-size: 0.8rem;
-    padding: 4px 10px;
-    border-radius: 999px;
-    font-weight: 600;
-  }
-  .badge.creators { background: rgba(76, 217, 100, 0.12); color: var(--green); border: 1px solid rgba(76, 217, 100, 0.35); }
-  .badge.shame { background: rgba(255, 92, 92, 0.12); color: var(--red); border: 1px solid rgba(255, 92, 92, 0.35); }
-  .note {
-    margin-top: 40px;
-    padding: 14px 18px;
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--gold);
-    border-radius: 8px;
-    background: var(--panel);
-    color: var(--muted);
-    font-size: 0.9rem;
-  }
-  .note a { color: var(--gold); }
-  footer {
-    border-top: 1px solid var(--border);
-    padding: 18px 24px;
-    text-align: center;
-    color: var(--muted);
-    font-size: 0.85rem;
-    background: var(--panel);
-  }
-  footer a { color: var(--muted); }
-</style>
+<title>Matrix Of Leadership — Community Registry</title>
+<meta name="description" content="A community registry of the real ones: original creators, crackers, groups, repackers and tool makers — and a proof-graded hell list for scammers and thieves.">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header>
-  <div class="brand">Matrix Of Leadership</div>
-  <nav>
-    <a href="#creators">Creators</a>
-    <a href="#shame">Hall of Shame</a>
-    <a href="https://github.com/the-lust/Matrix-Of-Leadership/issues">Contribute</a>
-  </nav>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Matrix Of <span>Leadership</span></a>
+    <nav class="menu">
+      <a class="active" href="index.html">Home</a>
+      <a href="creators.html">Creators</a>
+      <a class="danger" href="shame.html">Hall of Shame</a>
+      <a href="#contribute">Contribute</a>
+      <a href="#usage">Usage</a>
+      <a href="https://github.com/the-lust/Matrix-Of-Leadership">Repository</a>
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+    </nav>
+  </div>
 </header>
 
 <main>
   <section class="hero">
-    <h1>Matrix Of <span class="accent">Leadership</span></h1>
-    <p>A public registry of original creators — the pirates, builders, and artists who keep the scene moving — alongside a hall of shame for scammers and content stealers.</p>
+    <span class="kicker">Community registry · founded by the-lust</span>
+    <h1>The real ones,<br>recorded by the <span class="accent">people</span>.</h1>
+    <p class="lead">A living index of the scene's original creators, crackers, groups, repackers and tool makers — kept honest next to a proof-graded hell list that exposes scammers and content stealers. No noise, no claims without evidence.</p>
   </section>
 
-  <section id="creators" class="cards">
+  <div class="search-wrap">
+    <input id="globalSearch" type="search" placeholder="Search creators, tools, groups, shame entries…">
+    <span class="s-icon">&#128269;</span>
+  </div>
+  <p class="search-hint" id="searchHint">Search across the whole registry — or head to the <a href="creators.html">Creators</a> and <a href="shame.html">Hall of Shame</a> pages to search inside each section.</p>
+  <div id="searchResults"></div>
+
+  <section class="cards">
     <div class="card">
-      <h2><span class="dot green">&#9679;</span>Creators</h2>
-      <p>Original, verified makers — their platforms, channels, and signature work. Celebrating the real ones.</p>
-      <span class="badge creators">Registry</span>
+      <h2><span class="chip green">Registry</span>Creators</h2>
+      <p>Original people and first makers — legends, groups, repackers, tool authors, hypervisor crews and communities. Every entry names who actually made the thing.</p>
+      <a href="creators.html" style="align-self:flex-start;"><span class="chip accent-c">Browse →</span></a>
     </div>
     <div class="card">
-      <h2><span class="dot red">&#9679;</span>Hall of Shame</h2>
-      <p>Recorded scammers, thieves, and impersonators — with evidence links so the community stays informed.</p>
-      <span class="badge shame">Watchlist</span>
+      <h2><span class="chip red">Hell list</span>Hall of Shame</h2>
+      <p>Scammers, thieves and impersonators — graded 0 to 10 by severity, with proof links against every entry. Ruthless by design, evidence-driven by policy.</p>
+      <a href="shame.html" style="align-self:flex-start;"><span class="chip red">Expose →</span></a>
+    </div>
+    <div class="card">
+      <h2><span class="chip gold">Open</span>Contributions</h2>
+      <p>Star the repo, fork it, open issues and pull requests. Every legitimate touch makes the record stronger and keeps this index the real, first-form record.</p>
+      <a href="#contribute" style="align-self:flex-start;"><span class="chip gold">How it works ↓</span></a>
     </div>
   </section>
 
-  <section id="creators" class="note">
-    <h2 style="color: var(--text); margin-bottom: 8px;">The OGs</h2>
-    <p>The compiled registry of original creators, scene groups, repackers, and tool authors &mdash; pulled from the GitHub network, repo credits, and scene research. <a href="https://github.com/the-lust/Matrix-Of-Leadership/blob/master/data/creators.md">View the full list</a>.</p>
-    <h3 style="color: var(--text); margin: 14px 0 6px;">Scene legends</h3>
-    <p>Mr_Goldberg, EMPRESS, voices38, Voksi, Baldman, RUNE, TENOKE, MKDEV, DenuvOwO, FCKDRM, 3DM, RAZOR1911, Detanup01, NotAndreh, oureveryday, SlejmUr, anadius, DiaBlu, Nemirtingas, xan105, KirigiriX, denuvosanctuary, AceSLS, atom0s, Deadboy666, Rui, OpenSteam001, m0nkrus, FitGirl &amp; more.</p>
-    <h3 style="color: var(--text); margin: 14px 0 6px;">Groups &amp; tools</h3>
-    <p>Goldberg emulator, gbe_fork, SteamAutoCrack, Steamless, SLSsteam, OpenSteamTool, SteamTools, SmartSteamEmu, ColdAPI, UplayServer, UplayKit, CreamAPI, GreenLuma, WinVisor, pcileech, x64dbg, RDR2 method &amp; more.</p>
+  <section class="section" id="contribute">
+    <h2>How to contribute</h2>
+    <p class="sub">This place stays honest because the community maintains it. Presentation is simple, the rules are not.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="num">1</div>
+        <h3>Star &amp; fork</h3>
+        <p>Star the repository and fork it. Stars and forks are what keep the index alive and authentic.</p>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <h3>Add a creator</h3>
+        <p>Original makers and first crackers only — people who own their work. Pull request against the data files, profile link when one exists.</p>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <h3>Name someone in the hell list</h3>
+        <p>Every entry requires proof links — threads, receipts, screenshots, comparisons. No proof, no entry. Severity graded 0–10.</p>
+      </div>
+      <div class="step">
+        <div class="num">4</div>
+        <h3>Fix, correct, question</h3>
+        <p>Wrong link, missing credit, suspicion about an entry? Open an issue or send a correction. All entries are reviewed before they land.</p>
+      </div>
+    </div>
   </section>
 
-  <div id="shame" class="note">
-    <strong>Hall of Shame:</strong> scammers and content stealers, with evidence links &mdash;
-    <a href="https://github.com/the-lust/Matrix-Of-Leadership/blob/master/data/hall-of-shame.md">view the watchlist</a>.
-  </div>
-
-  <div class="note">
-    <strong>Caution:</strong> Nothing on this site is legal advice. Entries are provided in good faith based on publicly available community reports. Verify everything yourself.
-  </div>
+  <section class="section" id="usage">
+    <h2>Usage</h2>
+    <p class="sub">Everything you need to know to use this registry well.</p>
+    <div class="roll">
+      <details>
+        <summary>What is the Creators Registry?</summary>
+        <div class="body">A curated list of original people and first makers across the scene: individual legends (crackers, emulator and tool authors, uploaders), release groups, repackers, tools with their authors, hypervisor crews and the communities that hold it all together. Only real work gets a seat.</div>
+      </details>
+      <details>
+        <summary>How does the Hall of Shame severity scale work?</summary>
+        <div class="body">Every entry is graded 0–10. 0–1 Low · 2–3 Moderate · 4–5 High · 6–7 Very High · 8–9 Brutal · 10 Super Risky. The grade is assigned at review from the submitted proofs and can be challenged with new evidence.</div>
+      </details>
+      <details>
+        <summary>Where do the site pages get their data?</summary>
+        <div class="body">The website renders directly from <code>data/creators.json</code> and <code>data/shame.json</code>. Edit the data, push, and the site updates on its own. The matching <code>.md</code> files stay in sync as the human-readable copies.</div>
+      </details>
+      <details>
+        <summary>What counts as proof in the hell list?</summary>
+        <div class="body">Public threads, receipts, screenshots, original-versus-stolen comparisons, server bans, admin logs. Proofs are gathered, can be expanded later, and each entry carries a status: contacted, verified, or pending.</div>
+      </details>
+      <details>
+        <summary>Who decides what gets in?</summary>
+        <div class="body">Maintainers review every pull request and issue before anything lands. No vote farming, no unverified claims, no anonymous vendettas without evidence. Misuse gets a hell list entry of its own.</div>
+      </details>
+      <details>
+        <summary>How do I report a wrong or harmful entry?</summary>
+        <div class="body">Open an issue with the evidence. If a creator was added by mistake, a link broke, or a shame entry lacks proof, the issue is processed promptly and the record corrected.</div>
+      </details>
+    </div>
+  </section>
 </main>
 
 <footer>
-  Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> &middot;
+  A community-maintained index · content licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·
   <a href="https://github.com/the-lust/Matrix-Of-Leadership">github.com/the-lust/Matrix-Of-Leadership</a>
 </footer>
+
+<script src="assets/theme.js"></script>
+<script>
+(function () {
+  var input = document.getElementById("globalSearch");
+  var hint = document.getElementById("searchHint");
+  var box = document.getElementById("searchResults");
+  var data = null;
+
+  function esc(s) { var d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+
+  function load() {
+    return Promise.all([
+      fetch("data/creators.json").then(function (r) { return r.json(); }),
+      fetch("data/shame.json").then(function (r) { return r.json(); })
+    ]).then(function (res) { data = res[0]; data.shame = res[1].entries || []; });
+  }
+
+  function allItems() {
+    var out = [];
+    function push(cat, items, nameField) {
+      (items || []).forEach(function (it) {
+        out.push({ cat: cat, title: it[nameField] || it.name, sub: it.author || it.role || "", note: it.note || "", link: it.link || "" });
+      });
+    }
+    push("Legend", data.legends, "name");
+    push("Group", data.groups, "name");
+    push("Repacker", data.repackers, "name");
+    push("Tool", data.tools, "name");
+    push("Hypervisor", data.hypervisor, "name");
+    push("Community", data.communities, "name");
+    data.shame.forEach(function (it) {
+      out.push({ cat: "Shame", title: it.alias || "", sub: "severity " + (it.severity != null ? it.severity : "?") + "/10", note: it.offense || "", link: "", shame: true });
+    });
+    return out;
+  }
+
+  function render(list, q) {
+    if (!q) { box.innerHTML = ""; return; }
+    if (!list.length) { box.innerHTML = '<div class="empty">Nothing found for "' + esc(q) + '" — try another term.</div>'; return; }
+    var html = '<h2 style="margin-bottom:14px;">Results</h2><div class="grid">';
+    list.forEach(function (it) {
+      var badge = it.shame
+        ? '<span class="chip red">Shame</span>'
+        : '<span class="chip accent-c">' + esc(it.cat) + "</span>";
+      var link = it.link ? '<a class="who" target="_blank" rel="noopener" href="' + esc(it.link) + '">open &#8599;</a>' : "";
+      html += '<div class="item"><div class="top"><span class="name">' + esc(it.title) + "</span>" + badge + "</div>" +
+        (it.sub ? '<span class="tag">' + esc(it.sub) + "</span>" : "") +
+        '<span class="note">' + esc(it.note) + "</span>" + link + "</div>";
+    });
+    html += "</div>";
+    box.innerHTML = html;
+  }
+
+  function run() {
+    var q = input.value.trim().toLowerCase();
+    if (!data) { render([], q); return; }
+    if (!q) { render([], ""); return; }
+    var list = allItems().filter(function (it) {
+      return (it.title + " " + it.sub + " " + it.note).toLowerCase().indexOf(q) !== -1;
+    });
+    if (q.length >= 2) { hint.textContent = "Searching the whole registry — " + list.length + " match(es)"; }
+    render(list, q);
+  }
+
+  load().catch(function () {
+    hint.textContent = "Could not load the data files. If you opened this page directly from disk, serve it over a local server or GitHub Pages.";
+  });
+  input.addEventListener("input", run);
+})();
+</script>
 </body>
 </html>

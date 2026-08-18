@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Creators — Matrix Of Leadership</title>
+<meta name="description" content="The creators registry: original people and first makers, release groups, repackers, tools, hypervisor crews and communities.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Matrix Of <span>Leadership</span></a>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a class="active" href="creators.html">Creators</a>
+      <a class="danger" href="shame.html">Hall of Shame</a>
+      <a href="https://github.com/the-lust/Matrix-Of-Leadership/blob/master/data/creators.json">Edit data</a>
+      <a href="https://github.com/the-lust/Matrix-Of-Leadership/issues">Report</a>
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <span class="kicker">The registry</span>
+    <h1>Creators — the <span class="accent">real ones</span>.</h1>
+    <p class="lead">Original people and first makers only. Every entry names who actually made the thing, with a link to their profile where one exists.</p>
+  </section>
+
+  <div class="search-wrap">
+    <input id="search" type="search" placeholder="Search creators, groups, tools, repackers…">
+    <span class="s-icon">&#128269;</span>
+  </div>
+  <p class="search-hint" id="count">Loading the registry…</p>
+
+  <div class="tabs" id="tabs"></div>
+  <div class="grid" id="list"></div>
+</main>
+
+<footer>
+  <a href="index.html">Home</a> · add or fix an entry via a pull request against
+  <a href="https://github.com/the-lust/Matrix-Of-Leadership/blob/master/data/creators.json">data/creators.json</a>
+</footer>
+
+<script src="assets/theme.js"></script>
+<script>
+(function () {
+  var search = document.getElementById("search");
+  var count = document.getElementById("count");
+  var tabsEl = document.getElementById("tabs");
+  var listEl = document.getElementById("list");
+  var data = null;
+  var active = "all";
+
+  var CATS = [
+    ["all", "All", "chip accent-c"],
+    ["legends", "Legends", "chip accent-c"],
+    ["groups", "Groups", "chip accent-c"],
+    ["repackers", "Repackers", "chip accent-c"],
+    ["tools", "Tools", "chip accent-c"],
+    ["hypervisor", "Hypervisor", "chip accent-c"],
+    ["communities", "Communities", "chip accent-c"]
+  ];
+
+  function esc(s) { var d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+
+  function catLabel(cat) {
+    return { legends: "Legend", groups: "Group", repackers: "Repacker", tools: "Tool", hypervisor: "Hypervisor", communities: "Community" }[cat] || cat;
+  }
+
+  function render() {
+    if (!data) return;
+    var q = search.value.trim().toLowerCase();
+    var out = [];
+    CATS.forEach(function (c) {
+      if (c[0] === "all") return;
+      var items = data[c[0]] || [];
+      items.forEach(function (it) {
+        if (active !== "all" && active !== c[0]) return;
+        var hay = (it.name + " " + (it.author || "") + " " + (it.role || "") + " " + (it.note || "")).toLowerCase();
+        if (q && hay.indexOf(q) === -1) return;
+        out.push({ cat: c[0], it: it });
+      });
+    });
+    count.textContent = "Showing " + out.length + " entr" + (out.length === 1 ? "y" : "ies") + (active !== "all" ? " in " + catLabel(active).toLowerCase() : " across all categories");
+    var html = "";
+    out.forEach(function (o) {
+      var it = o.it;
+      var link = it.link ? '<a class="who" target="_blank" rel="noopener" href="' + esc(it.link) + '">' + esc(it.name) + ' &#8599;</a>' : '<span class="name">' + esc(it.name) + "</span>";
+      html += '<div class="item">' +
+        '<div class="top"><span class="name">' + (link.indexOf("&#8599;") !== -1 ? "" : "") + "</span></div>" +
+        '<div class="top">' + link + '<span class="chip accent-c">' + catLabel(o.cat) + "</span></div>" +
+        (it.role || it.author ? '<span class="tag">' + esc(it.role || "by " + it.author) + "</span>" : "") +
+        '<span class="note">' + esc(it.note) + "</span>" +
+        "</div>";
+    });
+    if (!html) html = '<div class="empty">No entries match — try another term or category.</div>';
+    listEl.innerHTML = html;
+  }
+
+  function buildTabs() {
+    tabsEl.innerHTML = "";
+    CATS.forEach(function (c) {
+      var b = document.createElement("button");
+      b.className = "tab" + (c[0] === active ? " active" : "");
+      b.textContent = c[1];
+      b.addEventListener("click", function () {
+        active = c[0];
+        buildTabs();
+        render();
+      });
+      tabsEl.appendChild(b);
+    });
+  }
+
+  fetch("data/creators.json")
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      data = d;
+      buildTabs();
+      render();
+    })
+    .catch(function () {
+      count.textContent = "Could not load the data file — serve the site over GitHub Pages or a local server.";
+    });
+
+  search.addEventListener("input", render);
+})();
+</script>
+</body>
+</html>
