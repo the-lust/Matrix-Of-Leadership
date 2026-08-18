@@ -250,3 +250,74 @@ footer a { color: var(--muted); }
   font-size: 0.85rem; font-weight: 600; box-shadow: var(--shadow); z-index: 99;
 }
 code { background: var(--bg-soft); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; font-size: 0.85em; }
+::selection { background: var(--accent-soft); }
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--line); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+/* ---- The hell page ---- */
+body.hell {
+  --bg: #0a0506;
+  --bg-soft: #150a0c;
+  --panel: rgba(26, 9, 10, 0.5);
+  --ink: #f5e6e2;
+  --muted: #b48b85;
+  --line: rgba(255, 92, 72, 0.16);
+  --accent: #ff6a4d;
+  --accent-soft: rgba(255, 106, 77, 0.13);
+  --green: #ff7a6b;
+  --green-soft: rgba(255, 122, 107, 0.12);
+  --gold: #e8a06a;
+  --gold-soft: rgba(232, 160, 106, 0.12);
+  --red: #ff4a35;
+  --red-soft: rgba(255, 74, 53, 0.14);
+  --ice: #ff8a6a;
+  --ice-soft: rgba(255, 138, 106, 0.13);
+  --shadow: 0 14px 50px rgba(60, 0, 0, 0.55);
+}
+body.hell {
+  background-image: radial-gradient(rgba(255, 82, 62, 0.06) 1px, transparent 1px);
+  background-size: 26px 26px;
+}
+body.hell::before {
+  background: radial-gradient(circle, rgba(255, 74, 53, 0.20), transparent 70%);
+}
+body.hell::after {
+  background: radial-gradient(circle, rgba(255, 140, 80, 0.10), transparent 70%);
+}
+body.hell header.nav { border-bottom-color: rgba(255, 92, 72, 0.22); }
+body.hell .hero .kicker { color: var(--red); background: var(--red-soft); border-color: rgba(255, 74, 53, 0.3); }
+body.hell .hero h1 { text-shadow: 0 0 34px rgba(255, 74, 53, 0.35); }
+body.hell .hero h1 .accent {
+  background: linear-gradient(120deg, #ff7a4d, #ff2e1a);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  text-shadow: none;
+}
+body.hell .tab.active {
+  background: linear-gradient(135deg, #ff5a3d, #b32010);
+  color: #fff; border-color: transparent;
+  box-shadow: 0 4px 18px rgba(255, 74, 53, 0.35);
+}
+body.hell .item { border-color: rgba(255, 92, 72, 0.14); }
+body.hell .item:hover { border-color: rgba(255, 74, 53, 0.6); box-shadow: 0 8px 30px rgba(120, 0, 0, 0.35); }
+body.hell .shame-head {
+  background: linear-gradient(160deg, rgba(66, 12, 9, 0.72), rgba(14, 7, 8, 0.9));
+  border: 1px solid rgba(255, 74, 53, 0.4);
+  box-shadow: 0 0 46px rgba(255, 60, 40, 0.16), inset 0 0 70px rgba(255, 60, 40, 0.05);
+}
+body.hell .shame-head h2 {
+  background: linear-gradient(120deg, #ff7a4d, #ff2e1a);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+body.hell .shame-item { border-left-color: var(--red); }
+body.hell .shame-item:hover { border-left-color: #ff2e1a; }
+body.hell .chip.red { box-shadow: 0 0 14px rgba(255, 74, 53, 0.25); }
+body.hell footer { border-top-color: rgba(255, 92, 72, 0.22); color: var(--muted); }
+body.hell .empty { color: var(--muted); }
+
+/* polish */
+.item .who { font-size: inherit; }
+.item .top { row-gap: 4px; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.card, .item, .step, .roll, .shame-head { transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease; }
