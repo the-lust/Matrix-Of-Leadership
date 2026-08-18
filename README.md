@@ -60,13 +60,13 @@ The `.json` files are the source of truth for the site — edit them and the web
 
 ## 🤝 Contributing
 
-1. **Star** the repo and **fork** it — stars and forks keep the index alive and authentic.
+1. **Star the repo** and **fork it** — and here is the only reason we ask: it proves this registry is **authentic**. If the original people themselves — the OGs — star, fork and contribute, this becomes the absolute best and most original universal record of the scene. We are **not** farming stars; the stars and forks are proof that the real ones stand behind this index.
 2. **Add a creator** — PR against `data/creators.json` (+ `data/creators.md`). Original makers and first crackers only. Profile link when one exists.
 3. **Name someone in the hell list** — PR against `data/shame.json` (+ `data/hall-of-shame.md`). Proof required. Severity is graded at review.
 4. **Fix and correct** — wrong link, missing credit, mistake? Open an issue or send the fix. Mistakes get fixed **asap**.
 5. **Recommend** — Discord `1243925000369733806` or a PR. Direct ticket after review.
 
-All entries are reviewed before they land. No vote farming, no unverified claims.
+All entries are reviewed before they land. No vote farming, no unverified claims — and no star farming, ever. Stars and forks are authenticity proof, nothing else.
 
 ## 👑 Repository origin
 
