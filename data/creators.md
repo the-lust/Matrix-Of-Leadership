@@ -10,6 +10,8 @@ Every name links to their repo/profile. Notes describe what they actually did.
 | [Mr_Goldberg](https://gitlab.com/Mr_Goldberg/goldberg_emulator) | Steam emulator author | goldberg_emulator — also Uplay R1/R2 emus and the RDR2/Rockstar offline method (with EMPRESS V2) |
 | [EMPRESS](https://en.wikipedia.org/wiki/Empress_(cracker)) (C000005) | Denuvo cracker, solo legend (2014–2023, retired) | her Denuvo cracks; RDR2 V2 method with Goldberg |
 | [voices38](https://isitcracked.com/) | Denuvo-era cracker, post-EMPRESS generation | his Denuvo cracks |
+| [Voksi](https://github.com/voksi) | Denuvo V4/V4.9++ bypass pioneer | Steamworks fixes, online fixes for AAA games, the Doom demo bypass (650k+ users in 3 days) |
+| [Baldman](https://github.com/baldman) | Denuvo cracker (Skidrow Games Reloaded) | Rime, Prey, Sniper Ghost Warrior 3 cracks; achievements/online fixes |
 | [Detanup01](https://github.com/Detanup01) | gbe_fork maintainer | gbe_fork, UplayServer, Goldberg R2 extended |
 | [oureveryday](https://github.com/oureveryday) | SteamAutoCrack author | SteamAutoCrack (auto SteamStub + Goldberg patching) |
 | [atom0s](https://github.com/atom0s/Steamless) | Steamless author | SteamStub DRM remover |
@@ -18,6 +20,9 @@ Every name links to their repo/profile. Notes describe what they actually did.
 | [SlejmUr](https://github.com/SlejmUr) | Ubisoft reversing lead | UplayDB project — UplayApps, UplayKit, UbiServices, dumped protobufs |
 | [anadius](https://github.com/Anadius) | EA emulator author | EA App/Origin emulators + Sims 4 DLC unlocker (mirrors on his site) |
 | [DiaBlu](https://github.com/diablu) | Uplay emulator author | classic Uplay R1/R2 loaders (Ubisoft Connect era) |
+| [Nemirtingas](https://github.com/Nemirtingas) | emulator author | NemirtingasEpicEmulator, Steam/Galaxy emu work, OpenXinput |
+| [nicoco007](https://github.com/nicoco007) | RE Engine tooling | RE Plugin and RE Engine reverse-engineering tools |
+| [xan105](https://github.com/xan105) | achievement tooling | Achievement-Watcher — emulator achievement tracker |
 | [denuvosanctuary](https://github.com/denuvosanctuary) | Denuvo Sanctuary | ubi-dbdata (dbdata.dll emulator) and related Denuvo tools |
 | [Nitr0-G](https://github.com/Nitr0-G/Denuvo-Info) | Denuvo research lead | Denuvo-Info — community note collection on Denuvo cracking |
 | [alex47exe](https://github.com/alex47exe/gse_fork) | gse_fork author | improved Goldberg Steam emulator fork |
@@ -46,6 +51,8 @@ Every name links to their repo/profile. Notes describe what they actually did.
 | Name | Role | Notes |
 |---|---|---|
 | [RUNE](https://isitcracked.com/group/rune) | post-CODEX scene group | Steam/Epic/MS Store/GOG releases; own RUNE steam emulators (regular/steakclient/steamclient) |
+| [MKDEV](https://isitcracked.com/group/mkdev) | Denuvo team | Football Manager series, FIFA 23, Persona 5 Royal/4 Golden; part of the HVB hypervisor-bypass wave (with DenuvOwO) |
+| [DenuvOwO](https://isitcracked.com/) | hypervisor team | HVB method — intercepts Denuvo checks at system level (with MKDEV) |
 | [CPY](https://isitcracked.com/group/cpy) | Denuvo scene group | legendary Denuvo releases |
 | [CODEX](https://isitcracked.com/group/codex) | scene group | the longest-running release era |
 | [RELOADED](https://isitcracked.com/group/reloaded) | scene group | classics |
@@ -100,6 +107,13 @@ Every name links to their repo/profile. Notes describe what they actually did.
 | [GreenLuma Reborn](https://github.com/3vil3vo/GreenLuma-Manager) | community (clinlx, ImaniiTy, 3vil3vo) | AppList unlockers |
 | [Steam-Metadata-Editor](https://github.com/tralph3/Steam-Metadata-Editor) | tralph3 | metadata editing |
 | [SteamForwarder](https://github.com/cute-rui/SteamForwarder) | cute-rui | Steam community proxy for Linux |
+| [NemirtingasEpicEmulator](https://github.com/Nemirtingas/NemirtingasEpicEmulator) | Nemirtingas | Epic Games emulator (LAN/online play) |
+| [Achievement-Watcher](https://github.com/xan105/Achievement-Watcher) | xan105 | achievement tracker for emulators |
+| [RE Plugin](https://github.com/nicoco007/RE-Plugin) | nicoco007 | RE Engine mod loader/tooling |
+| [XStoreUnlocker](https://github.com/Zephkek/XStoreUnlocker) | Zephkek (StanHardy fork) | Microsoft Store/Xbox DLC unlocker |
+| [ARMGDDN-Autocracker](https://github.com/KaladinDMP/ARMGDDN-Autocracker) | KaladinDMP | one-click GBE autocracker |
+| [SteamAutoCracker](https://github.com/BigBoiCJ/SteamAutoCracker) | BigBoiCJ | Steamless + Goldberg one-click script |
+| [Hydra Launcher](https://github.com/hydralauncher/hydra) | hydralauncher team | open-source pirating-oriented game launcher |
 | [gen.emu.sharp](https://github.com/otavepto/gen.emu.sharp) | otavepto | GSE config generator |
 | [GSE-Generator](https://github.com/brunolee-GIT/GSE-Generator) | brunolee-GIT | GSE config generator |
 | [SteamEmuUtility](https://github.com/turusudiro/SteamEmuUtility) | turusudiro | Playnite extension for GreenLuma/Goldberg |
