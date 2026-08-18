@@ -69,10 +69,6 @@ The `.json` files are the source of truth for the site — edit them and the web
 
 All entries are reviewed before they land. No vote farming, no unverified claims — and no star farming, ever. Stars and forks are authenticity proof, nothing else.
 
-## 👑 Repository origin
-
-Founded by **the-lust** as the original, first-form record of the scene's real creators — and its worst offenders. It stays that way through you: PRs, issues, stars, forks.
-
 ## 🌐 Site
 
 Live site: <https://the-lust.github.io/Matrix-Of-Leadership/>

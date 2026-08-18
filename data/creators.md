@@ -153,5 +153,5 @@ Every name is a link to their profile where one exists; otherwise plain name.
 
 | Name | Status |
 |---|---|
-| Verix | confirmed real by the-lust — details TBA |
+| Verix | confirmed real — details TBA |
 | ruitails | pirate-line (cracked MC launcher) — pending check |
