@@ -34,6 +34,9 @@ Every name is a link to their profile where one exists; otherwise plain name.
 | [Sak32009](https://github.com/Sak32009) | tool author | GetDLCInfoFromSteamDB and SteamRE tooling |
 | [softashell](https://github.com/softashell) | emulator dev | ALI/UPlay emulator lineage, SmartSteamEmu work |
 | [nicoco007](https://github.com/nicoco007) | tool author | RE Plugin and RE Engine reverse-engineering tools |
+| [pjy612](https://github.com/pjy612) | tool author | SteamManifestCache (1.8k+ stars), ManifestDownload, SteamConfigVdfMonitor — Chinese dev, works the Steam manifest/auto-update side |
+| [wxy1343](https://github.com/wxy1343) | tool author | DepotDownloader, DepotManifestGen — depot/manifest tooling; called the manifest-library pioneer |
+| BlankTMing | contributor | credited in SteamManifestCache for technical and manifest support — socials TBA |
 
 ## Crack Crews & Hypervisor Teams
 
@@ -80,6 +83,7 @@ Every name is a link to their profile where one exists; otherwise plain name.
 |---|---|---|
 | Rui | uploader | CS.RIN.RU "Clean Steam Files" archive — backbone of the forum |
 | InsaneRamZes | uploader | CS.RIN.RU clean Steam files uploads |
+| [Morrenus](https://discord.gg/MorrenusGames) | key sharer | credited in SteamManifestCache — shares keys via the MorrenusGames Discord |
 
 ## Tools & Emulators (authors only)
 
@@ -128,6 +132,11 @@ Every name is a link to their profile where one exists; otherwise plain name.
 | GSE-Generator | [brunolee-GIT](https://github.com/brunolee-GIT) | GSE config generator |
 | SteamEmuUtility | [turusudiro](https://github.com/turusudiro) | Playnite extension for GreenLuma/Goldberg |
 | Semuexec | [detiam](https://gitlab.com/detiam) | emulator helper |
+| SteamManifestCache | [pjy612](https://github.com/pjy612) | Steam depot manifest cache (1.8k+ stars) |
+| ManifestDownload | [pjy612](https://github.com/pjy612) | standalone manifest downloader |
+| DepotManifestGen | [wxy1343](https://github.com/wxy1343) | depot manifest generator |
+| Steam-Downgrader | [rares478](https://github.com/rares478) | automatic Steam client downgrader for the online-fix ecosystem |
+| ManifestHub | [SteamAutoCracks](https://github.com/SteamAutoCracks/ManifestHub) | manifest API service used by OpenSteamTool |
 
 ## Hypervisor & Denuvo
 

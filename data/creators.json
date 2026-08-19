@@ -25,7 +25,10 @@
     { "name": "OpenSteam001", "role": "tool author", "note": "OpenSteamTool — open-source Steam unlocker", "link": "https://github.com/OpenSteam001" },
     { "name": "Sak32009", "role": "tool author", "note": "GetDLCInfoFromSteamDB and SteamRE tooling", "link": "https://github.com/Sak32009" },
     { "name": "softashell", "role": "emulator dev", "note": "ALI/UPlay emulator lineage, SmartSteamEmu work", "link": "https://github.com/softashell" },
-    { "name": "nicoco007", "role": "tool author", "note": "RE Plugin and RE Engine reverse-engineering tools", "link": "https://github.com/nicoco007" }
+    { "name": "nicoco007", "role": "tool author", "note": "RE Plugin and RE Engine reverse-engineering tools", "link": "https://github.com/nicoco007" },
+    { "name": "pjy612", "role": "tool author", "note": "SteamManifestCache (1.8k+ stars), ManifestDownload, SteamConfigVdfMonitor — Chinese dev, works the Steam manifest/auto-update side", "link": "https://github.com/pjy612" },
+    { "name": "wxy1343", "role": "tool author", "note": "DepotDownloader, DepotManifestGen — depot/manifest tooling; called the manifest-library pioneer", "link": "https://github.com/wxy1343" },
+    { "name": "BlankTMing", "role": "contributor", "note": "credited in SteamManifestCache for technical and manifest support — socials TBA", "link": "" }
   ],
   "crews": [
     { "name": "MKDEV", "role": "Denuvo team", "note": "Football Manager series, FIFA 23, Persona 5 Royal/4 Golden; credited by the community as the makers of the HVB hypervisor bypass", "link": "https://isitcracked.com/group/mkdev" },
@@ -59,7 +62,8 @@
   ],
   "uploaders": [
     { "name": "Rui", "role": "uploader", "note": "CS.RIN.RU Clean Steam Files archive — backbone of the forum", "link": "https://cs.rin.ru/" },
-    { "name": "InsaneRamZes", "role": "uploader", "note": "CS.RIN.RU clean Steam files uploads", "link": "" }
+    { "name": "InsaneRamZes", "role": "uploader", "note": "CS.RIN.RU clean Steam files uploads", "link": "" },
+    { "name": "Morrenus", "role": "key sharer", "note": "credited in SteamManifestCache — shares keys via the MorrenusGames Discord", "link": "https://discord.gg/MorrenusGames" }
   ],
   "tools": [
     { "name": "Goldberg Steam Emulator", "author": "Mr_Goldberg", "note": "the standard Steam emulator", "link": "https://gitlab.com/Mr_Goldberg/goldberg_emulator" },
@@ -104,7 +108,12 @@
     { "name": "gen.emu.sharp", "author": "otavepto", "note": "GSE config generator", "link": "https://github.com/otavepto" },
     { "name": "GSE-Generator", "author": "brunolee-GIT", "note": "GSE config generator", "link": "https://github.com/brunolee-GIT" },
     { "name": "SteamEmuUtility", "author": "turusudiro", "note": "Playnite extension for GreenLuma/Goldberg", "link": "https://github.com/turusudiro" },
-    { "name": "Semuexec", "author": "detiam", "note": "emulator helper", "link": "https://gitlab.com/detiam" }
+    { "name": "Semuexec", "author": "detiam", "note": "emulator helper", "link": "https://gitlab.com/detiam" },
+    { "name": "SteamManifestCache", "author": "pjy612", "note": "Steam depot manifest cache (1.8k+ stars)", "link": "https://github.com/pjy612" },
+    { "name": "ManifestDownload", "author": "pjy612", "note": "standalone manifest downloader", "link": "https://github.com/pjy612" },
+    { "name": "DepotManifestGen", "author": "wxy1343", "note": "depot manifest generator", "link": "https://github.com/wxy1343" },
+    { "name": "Steam-Downgrader", "author": "rares478", "note": "automatic Steam client downgrader for the online-fix ecosystem", "link": "https://github.com/rares478" },
+    { "name": "ManifestHub", "author": "SteamAutoCracks", "note": "manifest API service used by OpenSteamTool", "link": "https://github.com/SteamAutoCracks/ManifestHub" }
   ],
   "hypervisor": [
     { "name": "Hypervisor V3", "author": "KirigiriX", "note": "DSE/Kirigiri method — the community standard", "link": "https://github.com/KirigiriX" },
